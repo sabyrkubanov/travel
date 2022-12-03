@@ -100,6 +100,8 @@
   }
 }
 
+
+
 @media (max-width: 576px) {
 .container{
   overflow: hidden;
@@ -156,8 +158,6 @@
   }
   }
 
-
-
 @media (max-width: 451px) {
   #header{
     .header{
@@ -182,7 +182,7 @@
         }
         &__menu{
           select{
-            width: 38%;
+            width: 35%;
           }
         }
       }
@@ -236,12 +236,44 @@
 
 }
 
+@media (max-width: 420px){
+  #guides{
+    .guides{
+      &--tittle{
+        p{
+          width: 90%;
+          margin: 20px 0 40px 0px;
+        }
+      }
+
+
+    }
+  }
+  #edward{
+    .edward{
+      &--tittle{
+        p{
+          width: 90%;
+        }
+        h4{padding: 90px 0 8px 0;}
+        &__stars{
+          margin:0;
+
+        }
+      }
+    }
+  }
+
+
+}
+
 
 
 @media (max-width: 400px) {
   #hero{
     .hero{
       &--tittle{
+
         h1{
           font-size: 49px;
           line-height: 52px;

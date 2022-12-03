@@ -101,7 +101,7 @@
     padding: 20px 0 24px 0;
   }
   #hero .hero--tittle__menu select {
-    width: 38%;
+    width: 35%;
   }
   #world .world--tittle h1 {
     font-size: 31px;
@@ -122,6 +122,21 @@
   }
   #card .card--tittle h1 {
     font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  #guides .guides--tittle p {
+    width: 90%;
+    margin: 20px 0 40px 0px;
+  }
+  #edward .edward--tittle p {
+    width: 90%;
+  }
+  #edward .edward--tittle h4 {
+    padding: 90px 0 8px 0;
+  }
+  #edward .edward--tittle__stars {
+    margin: 0;
   }
 }
 @media (max-width: 400px) {
