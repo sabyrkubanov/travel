@@ -1,0 +1,172 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #hero .hero--img {
+    width: 55%;
+  }
+  #world .world--img {
+    width: 55%;
+  }
+}
+@media (max-width: 1024px) {
+  #hero .hero {
+    flex-direction: column;
+  }
+  #hero .hero--tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  #hero .hero--img {
+    width: 75%;
+  }
+  #world .world {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #world .world--img {
+    width: 75%;
+  }
+  #guides .guides {
+    flex-direction: column;
+    text-align: center;
+  }
+  #guides .guides--img {
+    width: 75%;
+  }
+  #footer .footer {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  #header .header--nav button {
+    display: none;
+  }
+  #edward .edward {
+    flex-direction: column;
+    text-align: center;
+  }
+  #edward .edward--tittle {
+    align-items: center;
+    justify-content: center;
+  }
+  #edward .edward--tittle__stars {
+    padding: 30px 0 15px 0;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    overflow: hidden;
+  }
+  #hero .hero--elem {
+    left: 106px;
+  }
+  #hero .hero--elem2 {
+    top: 512px;
+    left: 425px;
+  }
+  #block .block--blocks__blocky {
+    display: flex;
+    justify-content: center;
+  }
+  #block .block--blocks__blocky--tittle {
+    left: 128px;
+  }
+  #card .card--cards__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #edward .edward--img__elem3 {
+    right: 321px;
+    bottom: -25px;
+  }
+}
+@media (max-width: 451px) {
+  #header .header--nav a {
+    display: none;
+  }
+  #hero .hero--tittle h1 {
+    font-size: 49px;
+    line-height: 52px;
+  }
+  #hero .hero--tittle h2 {
+    font-size: 20px;
+    padding: 20px 0 24px 0;
+  }
+  #hero .hero--tittle__menu select {
+    width: 38%;
+  }
+  #world .world--tittle h1 {
+    font-size: 31px;
+    line-height: 41px;
+  }
+  #world .world--tittle p {
+    text-align: center;
+    margin: 10px 0;
+    width: 90%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #block .block--blocks__blocky--tittle {
+    left: 72px;
+  }
+  #block .block--tittle h1 {
+    font-size: 25px;
+  }
+  #card .card--tittle h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 400px) {
+  #hero .hero--tittle h1 {
+    font-size: 49px;
+    line-height: 52px;
+  }
+  #hero .hero--tittle h2 {
+    font-size: 20px;
+    padding: 8px 0 13px 0;
+  }
+  #hero .hero--tittle__menu select {
+    width: 30%;
+  }
+  #guides .guides--tittle p {
+    width: 90%;
+    margin: 20px 0 40px 0px;
+  }
+  #edward .edward--img__elem {
+    right: 54px;
+    top: -33px;
+  }
+  #edward .edward--tittle p {
+    width: 90%;
+  }
+  #edward .edward--tittle h4 {
+    padding: 90px 0 8px 0;
+  }
+}
+@media (max-width: 376px) {
+  #edward .edward--tittle h4 {
+    padding: 132px 0 8px 0;
+  }
+  #edward .edward--tittle__stars {
+    margin: 27px 0 35px 0;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--tittle h1 {
+    font-size: 31px;
+    line-height: 33px;
+  }
+  #hero .hero--tittle__menu select {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
